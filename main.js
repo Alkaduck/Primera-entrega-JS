@@ -13,7 +13,7 @@ if (cantidadDeSoquetes%3===0){
 precio=cantidadDeSoquetes*400+ cantidadDeMedias*700 + cantidadDeBoxerDufour*1200+cantidadDeBoxerZorba*1050;}
 else {
 precio=(cantidadDeSoquetes-cantidadDeSoquetes%3)*400 + cantidadDeSoquetes%3*450 + cantidadDeMedias*700 + cantidadDeBoxerDufour*1200+cantidadDeBoxerZorba*1050;}
-alert("Tu presupuesto N°: "+i+" es $"+ precio);
+alert("El presupuesto del pedidio N°: "+i+" es $"+ precio);
 }}
 
 
